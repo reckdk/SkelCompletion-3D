@@ -1,0 +1,19 @@
+{
+  "model_name": "odt3d_vt_unet_S2_skelHinge_valHinge_bz256_multibreaks",
+  "dataset": "ODT",
+  "CLS_branch": false,
+  "SEG_branch": false,
+  "EDT_branch": true,
+  "epochs": 200,
+  "save_period": 40,
+  "learning_rate": 0.001,
+  "sample_per_batch": 20,
+  "batch_size": 224,
+  "batch_size_val": 256,
+  "patch_size": [32, 32, 32],
+  "ratio": 0.5,
+  "ft_num": 8,
+  "bgmean_weight": 1.0,
+  "skelloss_weight": 1,
+  "clsloss_weight": 1
+}
