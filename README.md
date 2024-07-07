@@ -43,4 +43,4 @@ jiaxren@cs.stonybrook.edu
 
 ### Acknowledgment
 
-This work was supported in part by NIH grants 1R21DA057699, 1RF1DA048808, and 2R01DA029718.
+This work was partially supported by NIH grants 1R21DA057699, 1RF1DA048808 and 2R01DA029718, and partially supported by NSF grants 2006665 and 2128350.
