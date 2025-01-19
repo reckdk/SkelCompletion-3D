@@ -15,5 +15,6 @@
   "ft_num": 8,
   "bgmean_weight": 1.0,
   "skelloss_weight": 1,
-  "clsloss_weight": 1
+  "clsloss_weight": 1,
+  "dataset_dir": "../dataset/Dataset_VascularTree_Recon"
 }
