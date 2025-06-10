@@ -31,6 +31,8 @@ skan == 0.10.0
 
 Ensure the trained model weight is in `weights/model_weights_best.pth`. Then run the notebook `inference_odt.ipynb` for inference.
 
+- The weights trained on the MSD liver vessels CT set is [here](https://drive.google.com/file/d/18aW36UmxPOvsj1z6NJIIyb42GRXehb4B/view?usp=sharing). Refer to `dataset_pt_MSD.py` for data processing and `inference_odt.ipynb` for inference scripts.
+
 ### Datasets and Annotations
 - MSD dataset can be downloaded from the official site. The annotation is in `dataset/MSD_annotation_3D.csv`. Note that only a part of original CT volumes contain vessels so we crop the volumes using the script in `dataset/task008_hvessel_preprocessing.ipynb`. The annotation is based on the cropped CT patches.
 
